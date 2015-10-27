@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3b4ae2ba-95ee-4809-b864-dece2a8325fa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2170/WordScrambleService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WordScrambleService.wsdl" MetadataType="Wsdl" ID="4b360ed7-8d40-46dd-bbf3-461fce74d66e" SourceId="1" SourceUrl="http://localhost:2170/WordScrambleService.svc?wsdl" />
+    <MetadataFile FileName="WordScrambleService.xsd" MetadataType="Schema" ID="f244417d-eac1-4f8f-b5f1-1f8d50ea9676" SourceId="1" SourceUrl="http://localhost:2170/WordScrambleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WordScrambleService1.xsd" MetadataType="Schema" ID="fb940b77-8ba6-431e-8fb3-f708be5d9a0d" SourceId="1" SourceUrl="http://localhost:2170/WordScrambleService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WordScrambleService2.xsd" MetadataType="Schema" ID="e083cf67-41c5-453d-ab11-a93bb0248699" SourceId="1" SourceUrl="http://localhost:2170/WordScrambleService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WordScrambleService.disco" MetadataType="Disco" ID="cc571aca-a757-4554-8bd7-1f9429025534" SourceId="1" SourceUrl="http://localhost:2170/WordScrambleService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
